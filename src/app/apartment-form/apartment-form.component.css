@@ -1,0 +1,65 @@
+.common-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .common-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .common-form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .common-form .form-group input,
+  .common-form .form-group select,
+  .common-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .common-form .form-group .text-danger {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .common-form .form-group input[type="checkbox"],
+  .common-form .form-group input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .common-form .form-group input[type="checkbox"] + label,
+  .common-form .form-group input[type="radio"] + label {
+    display: inline-block;
+    font-weight: normal;
+  }
+  
+  .common-form .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .common-form a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .common-form a:hover {
+    text-decoration: underline;
+  }
+  

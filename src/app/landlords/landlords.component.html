@@ -1,0 +1,23 @@
+<div class="landlord-auth">
+    <div *ngIf="isSignup" class="signup">
+      <h1>Landlords Signup</h1>
+      <form #LLSignupform="ngForm" (ngSubmit)="signUp(LLSignupform.value)" class="common-form">
+        <input class="form-input" type="text" placeholder="Enter Name" name="name" ngModel>
+        <input class="form-input" type="password" placeholder="Enter Password" name="password" ngModel>
+        <input class="form-input" type="text" placeholder="Enter Email" name="email" ngModel>
+        <button class="form-button">Signup</button>
+      </form>
+      <p>Already have an account? <a (click)="toggleForm()">Login here</a></p>
+    </div>
+    <div *ngIf="!isSignup" class="login">
+      <h1>Landlords Login</h1>
+      <form #LLLoginform="ngForm" (ngSubmit)="login(LLLoginform.value)" class="common-form">
+        <input class="form-input" type="text" placeholder="Enter Email" name="email" ngModel>
+        <input class="form-input" type="password" placeholder="Enter Password" name="password" ngModel>
+        <button class="form-button">Login</button>
+      </form>
+      <p>Don't have an account? <a (click)="toggleForm()">Signup here</a></p>
+    </div>
+  </div>
+  <a class="btn btn-info" routerLink="/home">Go to home page</a>
+  

@@ -1,0 +1,294 @@
+{
+  "users": [
+    {
+      "name": "tarun dumka",
+      "email": "tarundumka890@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "ravi",
+      "email": "ravi@gmail.com",
+      "password": "ravi@123",
+      "id": 2
+    },
+    {
+      "name": "jatin",
+      "email": "jatin@gmail.com",
+      "password": "jatin123",
+      "id": 3
+    },
+    {
+      "name": "lokesh",
+      "email": "lokesh@gmail.com",
+      "password": "lokesh123",
+      "id": 4
+    },
+    {
+      "name": "mukul",
+      "email": "mukul@gmail.com",
+      "password": "mukul@123",
+      "id": 5
+    },
+    {
+      "name": "yyyyyyyyy",
+      "email": "lokesh@gmail.com",
+      "password": "lokesh123",
+      "id": 6
+    },
+    {
+      "name": "alena",
+      "email": "alena@gmail.com",
+      "password": "alena@123",
+      "id": 7
+    },
+    {
+      "name": "oooooooo",
+      "email": "ooooooooo@gmail.com",
+      "password": "alena@123",
+      "id": 8
+    },
+    {
+      "name": "pppppppppppp",
+      "email": "ooooooooo@gmail.com",
+      "password": "alena@123",
+      "id": 9
+    },
+    {
+      "name": "xxxxxxxxxxxxx",
+      "email": "ooooooooo@gmail.com",
+      "password": "alena@123",
+      "id": 10
+    },
+    {
+      "name": "zzzzzzzzzzzzz",
+      "email": "ooooooooo@gmail.com",
+      "password": "alena@123",
+      "id": 11
+    },
+    {
+      "name": "pppppppp",
+      "email": "ooooooooo@gmail.com",
+      "password": "alena@123",
+      "id": 12
+    },
+    {
+      "name": "cccccccccc",
+      "email": "ooooooooo@gmail.com",
+      "password": "alena@123",
+      "id": 13
+    },
+    {
+      "name": "mmmmmmmmm",
+      "email": "ooooooooo@gmail.com",
+      "password": "alena@123",
+      "id": 14
+    },
+    {
+      "name": "llllll",
+      "email": "ooooooooo@gmail.com",
+      "password": "alena@123lllll",
+      "id": 15
+    },
+    {
+      "name": "vvvvvv",
+      "email": "admin@123",
+      "password": "Tarun@123",
+      "id": 16
+    },
+    {
+      "name": "n",
+      "email": "ravi@gmail.com",
+      "password": "ravi@123",
+      "id": 17
+    }
+  ],
+  "landlords": [
+    {
+      "name": "wqdwqd",
+      "password": "qwdqwdqwdwd",
+      "email": "qwdqwdqwdqwd",
+      "id": 1
+    },
+    {
+      "name": "wedwed",
+      "password": "wedwedwededwed",
+      "email": "qaqaqaqaqa",
+      "id": 2
+    },
+    {
+      "name": "tarundumka",
+      "password": "Tarun@1234",
+      "email": "Tarun@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "ravi",
+      "password": "ravi@123",
+      "email": "ravi@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "saumya",
+      "password": "saumya@123",
+      "email": "saumya@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "vikram",
+      "password": "vikram123",
+      "email": "vikram@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "neha",
+      "password": "neha@123",
+      "email": "neha@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "ashmita",
+      "password": "ashmita123",
+      "email": "ashmita@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "vvvvvvvv",
+      "password": "alena@123lllll",
+      "email": "ooooooooo@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "mmmmmmmmm",
+      "password": "alena@123lllll",
+      "email": "ooooooooo@gmail.com",
+      "id": 10
+    }
+  ],
+  "apartments": [
+    {
+      "building": "Building B",
+      "shared": "yes",
+      "location": "dcd",
+      "details": "344",
+      "leaseType": "long term",
+      "rent": "1222",
+      "furnished": "yes",
+      "title": "qdwed",
+      "description": "ewdewdewdwedqwedewdwedwed",
+      "gym": false,
+      "swimming pool": true,
+      "car park": false,
+      "visitors parking": false,
+      "power backup": false,
+      "garbage disposal": false,
+      "private lawn": false,
+      "water heater": true,
+      "plant security system": false,
+      "laundry service": false,
+      "elevator": false,
+      "club house": false,
+      "photo": "https://images.pexels.com/photos/932095/pexels-photo-932095.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 3
+    },
+    {
+      "building": "Building D",
+      "shared": "yes",
+      "location": "haldwani",
+      "details": "8000",
+      "leaseType": "long term",
+      "rent": "10000",
+      "furnished": "yes",
+      "title": "vintage home",
+      "description": "best for the teenage ",
+      "gym": false,
+      "swimming pool": true,
+      "car park": false,
+      "visitors parking": false,
+      "power backup": true,
+      "garbage disposal": true,
+      "private lawn": true,
+      "water heater": true,
+      "plant security system": false,
+      "laundry service": true,
+      "elevator": false,
+      "club house": false,
+      "photo": "https://images.pexels.com/photos/5998138/pexels-photo-5998138.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 4
+    },
+    {
+      "building": "Building E",
+      "shared": "yes",
+      "location": "rudrapur",
+      "details": "4000",
+      "leaseType": "short term",
+      "rent": "5000",
+      "furnished": "yes",
+      "title": "tarun residency",
+      "description": "tarun bhai residency",
+      "gym": true,
+      "swimming pool": false,
+      "car park": false,
+      "visitors parking": false,
+      "power backup": false,
+      "garbage disposal": false,
+      "private lawn": false,
+      "water heater": true,
+      "plant security system": true,
+      "laundry service": true,
+      "elevator": false,
+      "club house": false,
+      "photo": "https://images.pexels.com/photos/2459/stairs-home-loft-lifestyle.jpg?auto=compress&cs=tinysrgb&w=600",
+      "id": 5
+    },
+    {
+      "building": "Building B",
+      "shared": "yes",
+      "location": "haldwani 2",
+      "details": "5000",
+      "leaseType": "short term",
+      "rent": "7000",
+      "furnished": "yes",
+      "title": "Dumka's Hotel",
+      "description": "Hotel in which you can rent a room for many months.",
+      "gym": false,
+      "swimming pool": true,
+      "car park": false,
+      "visitors parking": true,
+      "power backup": true,
+      "garbage disposal": true,
+      "private lawn": false,
+      "water heater": false,
+      "plant security system": false,
+      "laundry service": false,
+      "elevator": false,
+      "club house": false,
+      "photo": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 6
+    },
+    {
+      "building": "Building C",
+      "shared": "yes",
+      "location": "knjknk",
+      "details": "687687",
+      "leaseType": "short term",
+      "rent": "89999",
+      "furnished": "yes",
+      "title": "hhbkbbhb",
+      "description": "mkmkmkmkkmk",
+      "gym": false,
+      "swimming pool": false,
+      "car park": false,
+      "visitors parking": false,
+      "power backup": true,
+      "garbage disposal": true,
+      "private lawn": false,
+      "water heater": false,
+      "plant security system": false,
+      "laundry service": false,
+      "elevator": false,
+      "club house": false,
+      "id": 7
+    }
+  ]
+}

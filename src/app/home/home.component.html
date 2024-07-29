@@ -1,0 +1,11 @@
+<div class="houses">
+  <div *ngFor="let apartment of apartments" class="house">
+    <img [src]="apartment.photo" alt="{{ apartment.title }}">
+    <h2>{{ apartment.title }}</h2>
+    <p>{{ apartment.description }}</p>
+    <button class="btn btn-info" [routerLink]="['/view-detail', apartment.id]">View Detail</button>
+    <button class="btn btn-secondary">Mark as Favourite</button>
+    <button class="btn btn-primary" [routerLink]="['/comments', apartment.id]">Comments</button>
+  </div>
+</div>
+

@@ -1,0 +1,32 @@
+<h1>LogIn User</h1>
+<form [formGroup]="loginForm" (ngSubmit)="login(loginForm.value)" class="common-form">
+    
+    <input
+      type="text"
+      class="form-input"
+      formControlName="email"
+      placeholder="Enter User Email"
+    />
+    <div *ngIf="loginForm.get('email')?.['invalid'] && (loginForm.get('email')?.['dirty'] || loginForm.get('email')?.['touched'])"> -->
+      <div *ngIf="loginForm.get('email')?.['errors']?.['required']">Email is required.</div> 
+      <div *ngIf="loginForm.get('email')?.['errors']?.['email']">Invalid email address.</div>
+    </div>
+
+    <input
+      type="password"
+      class="form-input"
+      formControlName="password"
+      placeholder="Enter User Password"
+    />
+    <div *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched">
+      Password is required
+    </div>
+
+
+    <button class="btn btn-info" type="submit" class="form-button" [disabled]="loginForm.invalid">login</button>
+    <!-- <p>Already Have Account ? <a (click)="openLogin()" >Click Here</a></p> -->
+  </form>
+  <a class="btn btn-info" routerLink="/register">Go to register page</a>
+  <a class="btn btn-info" routerLink="/home">Go to home page</a>
+  <router-outlet></router-outlet>
+  

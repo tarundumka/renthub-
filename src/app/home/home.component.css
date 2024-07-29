@@ -1,0 +1,47 @@
+.houses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .house {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .house img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+  }
+  .house button {
+    font-size: 12px; /* Adjust font size */
+    padding: 6px 12px; /* Adjust padding */
+    margin: 4px; /* Adjust margin if needed */
+  }
+  
+  .house img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+  }
+  .houses {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .house {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .house img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  

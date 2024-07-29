@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa; /* Optional: background color for the header */
+}
+
+.header-title {
+  margin: 0;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}

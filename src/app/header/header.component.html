@@ -1,0 +1,10 @@
+<header class="header">
+  <h1 class="header-title">RentHub</h1>
+  <input type="text"  placeholder="Search apartments..." />
+  <div class="header-buttons">
+    <button (click)="login()">Login</button>
+    <button (click)="register()">Register</button>
+    <button *ngIf="isLandlordLoggedIn" (click)="Add()">Add</button>
+    <button (click)="Landlords()">Landlords</button>
+  </div>
+</header>
